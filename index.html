@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu-button">☰</div>
+        <div class="title" id="headerTitle">about</div>
+    </header>
+
+    <nav class="side-menu" id="sideMenu">
+        <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#background">background</a></li>
+            <li><a href="#works">works</a></li>
+            <li><a href="#expertise">expertise</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="sections">
+        <section id="about">
+            <div class="about">
+                <div class="about-inner">
+                    <div class="about-left">
+                        <h1 class="name">keeno smith</h1>
+                        <h2 class="title-text">Software Engineer · Web Developer</h2>
+                        <div class="divider"></div>
+                        <p class="description">
+                            I'm a freelance web designer and software engineer with a focus on building clean, modern digital experiences. 
+                            Basically, I build really cool websites.
+                        </p>
+                        <p class="description">
+                            I've been working with code since 2013, developing a strong understanding of both design and underlying architecture. 
+                            My work extends across the full stack, including front-end development, back-end systems, and database design.
+                        </p>
+                        <p class="description">
+                            I focus on clarity, performance, and detail in every project, ensuring the final result is both visually strong and technically sound.
+                        </p>
+                        <img src="images/signature.png" class="signature">
+                        <a href="cv/keenosmith_cv.pdf" download target="_blank" class="contact-btn">download cv</a>
+                    </div>
+
+                    <div class="about-right">
+                        <img src="images/1.png" alt="portrait" class="about-image">
+                    </div>
+                </div>
+                <div class="next-arrow">›</div>
+            </div>
+        </section>
+        <section id="background">
+            <div class="background">
+                <div class="background-inner">
+                    <div class="background-left">
+                        <div class="top-buttons">
+                            <a href="https://www.linkedin.com/in/keenotreysmith" target="_blank" class="background-btn">
+                                <i class="fa-brands fa-linkedin"></i> 
+                            </a>
+                            <a href="https://www.github.com/keenosmith-del" target="_blank" class="background-btn">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="divider"></div>
+                        <p class="description">
+                            My background combines formal education with continuous self-directed learning across software development and technology.   
+                        </p>
+                        <p class="description">
+                            I completed high school with a strong academic focus in Information Technology, Engineering Graphics and Design, Physics, and Mathematics, and I am currently pursuing a Bachelor of Science in Computer Science through the University of South Africa.   
+                        </p>
+                        <p class="description">
+                            I have also completed a certification in Full Stack Software Engineering and Web Development through Stellenbosch University and HyperionDev, as well as a Generative AI programme for software engineers through WeThinkCode.    
+                        </p>
+                        <p class="description">
+                            Alongside this, I have developed my skills through full-stack training covering front-end, back-end, databases, and areas such as AI and cybersecurity.    
+                        </p>
+                        <p class="description">
+                            I have gained experience as a coding tutor, systems analyst, and technical editor, contributing to work associated with companies such as Cisco, Oracle, Salesforce, NVIDIA, and Apple, as well as roles in cybersecurity and IT support at Amazon.    
+                        </p>
+                    </div>
+                    <div class="background-right">
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skill-label">javascript</div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-label">html</div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-label">css</div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-label">react</div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-label">node.js</div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-label">python</div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 87%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-label">c++</div>
+                                <div class="skill-bar">
+                                    <div class="skill-fill" style="width: 79%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prev-arrow">‹</div>
+                <div class="next-arrow">›</div>
+            </div>
+        </section>
+        <section id="works">
+            <div class="works">
+                <div class="works-inner">
+                    <div class="works-top">
+                        <p class="works-text">
+                            A selection of web projects that reflect my approach to design and development, with a focus on clean structure, usability, and attention to detail. 
+                        </p>
+                        <div class="divider"></div>
+                        <a href="websites/porfolio_web.html" class="works-btn" target="_blank">full portfolio</a>    
+                    </div>
+                    <!-- grid -->
+                    <div class="works-grid">
+                        <div class="work-item">
+                            <a href="websites/web_1.html" target="_blank">
+                                <img src="images/visit.png">
+                            </a>
+                            <div class="work-title">portfolio</div>
+                            <div class="divider"></div>
+                            <div class="work-desc">
+                                A structured portfolio exploring the life and career of Joaquin Phoenix, presented in a clean, CV-style layout that reflects both content clarity and design approach.
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <a href="websites/web_2.html" target="_blank">
+                                <img src="images/visit.png">
+                            </a>
+                            <div class="work-title">chair</div>
+                            <div class="divider"></div>
+                            <div class="work-desc">
+                                A minimal catalogue of curated chair designs, focusing on form, material, and aesthetic presentation through simple, structured layouts.
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <a href="websites/web_3.html" target="_blank">
+                                <img src="images/visit.png">
+                            </a>
+                            <div class="work-title">anthony bourdain</div>
+                            <div class="divider"></div>
+                            <div class="work-desc">
+                                A narrative-driven website capturing the life and story of Anthony Bourdain, presented in a long-form, memoir-style layout.
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <a href="websites/web_4.html" target="_blank">
+                                <img src="images/visit.png">
+                            </a>
+                            <div class="work-title">symplicity</div>
+                            <div class="divider"></div>
+                            <div class="work-desc">
+                                An exploration of minimal web design through imagery and written content, highlighting a clean, stripped-back approach to layout and presentation.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prev-arrow">‹</div>
+                <div class="next-arrow">›</div>
+            </div>
+        </section>
+        <section id="expertise">
+            <div class="expertise">
+                <div class="services-inner">
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <rect x="3" y="3" width="7" height="7"/>
+                                    <rect x="14" y="3" width="7" height="7"/>
+                                    <rect x="14" y="3" width="7" height="7"/>
+                                    <rect x="3" y="3" width="7" height="7"/>
+                                </svg>
+                            </div>
+                            <div class="service-title">web design</div>
+                            <div class="divider"></div>
+                            <p class="service-desc">
+                                Designing clean, modern interfaces with a strong focus on clarity, structure, and visual balance.
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <path d="M12 19l7-7-4-4-7 7v4h4z"/>
+                                </svg>
+                            </div>
+                            <div class="service-title">digital branding</div>
+                            <div class="divider"></div>
+                            <p class="service-desc">
+                                Creating cohesive digital identities that communicate purpose, personality, and consistency across platforms.
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <path d="M4 4l7 17 2-7 7-2L4 4z"/>
+                                </svg>
+                            </div>
+                            <div class="service-title">ux/ui</div>
+                            <div class="divider"></div>
+                            <p class="service-desc">
+                                Crafting intuitive user experiences that prioritise usability, flow, and meaningful interaction.
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <rect x="2" y="3" width="14" height="10"/>
+                                    <rect x="17" y="7" width="5" height="10"/>
+                                </svg>
+                            </div>
+                            <div class="service-title">responsive design</div>
+                            <div class="divider"></div>
+                            <p class="service-desc">
+                                Building layouts that adapt seamlessly across devices while maintaining consistency and performance.
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <ellipse cx=""12" cy="5" rx="9" ry="3"/>
+                                    <path d="M3 5v6c0 1.7 4 3 9 3s9-1.3 9-3V5"/>
+                                    <path d="M3 11v6c0 1.7 4 3 9 3s9-1.3 9-3v-6"/>
+                                </svg>
+                            </div>
+                            <div class="service-title">sql</div>
+                            <div class="divider"></div>
+                            <p class="service-desc">
+                                Working with structured data to design efficient queries, optimise performance, and support scalable systems.
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <path d="M16 18l6-6-6-6"/>
+                                    <path d="M8 6l-6 6 6 6"/>
+                                </svg>
+                            </div>
+                            <div class="service-title">development</div>
+                            <div class="divider"></div>
+                            <p class="service-desc">
+                                Developing robust, scalable applications with clean code, efficient architecture, and attention to detail.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="prev-arrow">‹</div>
+                <div class="next-arrow">›</div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <div class="contact-inner">
+                    <div class="contact-left">
+                        <img src="images/2.png" class="contact-image">
+                    </div>
+                    <div class="contact-right">
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <path d="M22 16.92V21a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5 
+                                    3h4.09a2 2 0 0 1 2 1.72l.7 4.2a2 2 0 0 1-.55 1.77l-1.27 1.27a16 16 0 0 0 6.06 
+                                    6.06l1.27-1.27a2 2 0 0 1 1.77-.55l4.2.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                <span>+1234567890</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <path d="M4 4h16v16H4z"/>
+                                    <path d="M4 4l8 8 8-8"/>
+                                </svg>
+                                <span>business.keenosmith@icloud.com</span>
+                            </div>
+
+                            <a href="https://linkedin.com/in/keenotreysmith" target="_blank" class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <rect x="2" y="2" width="20" height="20" rx="4"/> 
+                                    <path d="M7 10v7"/> 
+                                    <path d="M7 7h.01"/> 
+                                    <path d="M11 10v7"/> 
+                                    <path d="M11 13a3 3 0 0 1 6 0v4"/>                                    
+                                </svg>
+                                <span>linkedin</span>
+                            </a>
+                            <a href="https://github.com/keenosmith-del" target="_blank" class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 
+                                    6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 
+                                    0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 
+                                    3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                                <span>github</span>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <rect x="2" y="2" width="20" height="20" rx="5"/> 
+                                    <circle cx="12" cy="12" r="4"/>
+                                </svg>
+                                <span>instagram</span>
+                            </a>
+                            <a href="https://youtube.com" target="_blank" class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <rect x="2" y="6" width="20" height="12" rx="3"/> 
+                                    <polygon points="10 9 15 12 10 15 10 9"/>
+                                </svg>
+                                <span>youtube</span>
+                            </a>
+                            <a href="https://tittok.com" target="_blank" class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+                                    <path d="M9 3v12a3 3 0 1 1-3-3"/> 
+                                    <path d="M15 3c0 3 2 5 5 5"/>
+                                </svg>
+                                <span>tiktok</span>
+                            </a>
+                        </div>
+
+                        <div class="divider"></div>
+
+                        <div class="contact-buttons">
+                            <a href="cv/keenosmith_cv.pdf" download target="_blank" class="download-cv">
+                                download cv
+                            </a>
+                            <a href="mailto:business.keenosmith@icloud.com" class="contact-email">
+                                send email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="prev-arrow">‹</div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+            <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a> 
+            <a href="https://discord.com" target="_blank"><i class="fa-brands fa-discord"></i></a> 
+            <a href="https://www.reddit.com" target="_blank"><i class="fa-brands fa-reddit"></i></a>
+        </div>
+        <div class="footer-center">
+            &copy; built by keeno smith 2026
+        </div>
+        <div class="footer-right">
+            j♡
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
